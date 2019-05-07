@@ -79,7 +79,7 @@ La ricerca permette di migliorare le proprie conoscenze e tecnologie. Ogni ricer
 
 | LV | Pt. Ricerca |
 | :--: | :--: |
-| 1  | 1 |
+| 1  | 1 ![ricerca](imgs/ricerca.png)|
 | 2  | 2 |
 | 3  | 3 |
 | 4  | 4 |
