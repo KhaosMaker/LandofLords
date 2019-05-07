@@ -14,6 +14,17 @@ La mappa del territorio è composta da **Tessere quadrate** ognuno suddivisa in 
 - **Acqua**: non è possibile costruire o espandersi su questa cella. Le unità non possono attraversarla.
 - **Monti**: non è possibile costruire o espandersi su questa cella. Il movimento su di essa conta come *2 celle* (la Esploratori non può attraversarla).
 
+Per esempio questa è una **Tessera** composta da 4 celle (rispettivamente in senso orario da in alto a sx: pianura, acqua, pianura, montagna)  
+![tile](imgs/tile1.png)
+
+Un'altro esempio di Tessera:  
+
+![tile](imgs/tile2.png)
+
+Una volta unite vanno a formare una mappa:  
+
+![bigtile](imgs/b_tile1.png)
+
 ## Costruzione
 ### Centri:
 I Centri abitati sono di 4 tipi, 1 per livello:
