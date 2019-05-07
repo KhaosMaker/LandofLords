@@ -12,7 +12,7 @@ I Centri producono 1 risorsa a livello 1-2-3 e 2 risorse a livello 4
 La mappa del territorio è composta da **Tessere quadrate** ognuno suddivisa in 2x2 **celle**. Ogni cella rappresenta uno dei 3 **Biomi**:
 - **Pianura**: il Bioma più semplice che non comporta nessun bonus/malus
 - **Acqua**: non è possibile costruire o espandersi su questa cella. Le unità non possono attraversarla.
-- **Monti**: non è possibile costruire o espandersi su questa cella. Il movimento su di essa conta come *2 celle* (la Esploratori non può attraversarla).
+- **Monti**: non è possibile costruire o espandersi su questa cella. Il movimento su di essa conta come **2 celle** (gli Esploratori non possono quindi attraversarla).
 
 Per esempio questa è una **Tessera** composta da 4 celle (rispettivamente in senso orario da in alto a sx: pianura, acqua, pianura, montagna)  
 ![tile](imgs/tile1.png)
@@ -56,10 +56,10 @@ Il costo dell'espansione varia a seconda del livello:
 - 2->3: 8 ![risorsa](imgs/risorsa.png) 
 - 3->4: 12 ![risorsa](imgs/risorsa.png)
 
-Il costo d'espansione della capitale invece:
-1->2: 4 ![risorsa](imgs/risorsa.png) + 2 ![ricerca](imgs/ricerca.png)
-2->3: 8 ![risorsa](imgs/risorsa.png) + 4 ![ricerca](imgs/ricerca.png)
-3->4: 12 ![risorsa](imgs/risorsa.png) + 6 ![ricerca](imgs/ricerca.png)
+Il costo d'espansione della **Capitale** invece:
+- 1->2: 4 ![risorsa](imgs/risorsa.png) + 2 ![ricerca](imgs/ricerca.png)
+- 2->3: 8 ![risorsa](imgs/risorsa.png) + 4 ![ricerca](imgs/ricerca.png)
+- 3->4: 12 ![risorsa](imgs/risorsa.png) + 6 ![ricerca](imgs/ricerca.png)
 
 ### Le Strutture
 Le Strutture sono costruzioni di supporto edificabili in una cella libera su una tessera controllata da un proprio Centro.  
@@ -129,18 +129,15 @@ Industriale:
 - Strade: il Movimento delle proprie trupper è aumentato di 1 per livello quando si muovono nei territori controllati.
 
 ## Fasi del turno:
-> Riscossione risorse: +1 Risorsa per ogni livello della capitale. +1 Risorsa per ogni Centro.
-> Conversione: Per ogni risorsa acquisita si convertono in Popolazione/Materiali/Ricerca a piacimento
-> Riscossione Materiali: +1 Materiale per ogni Miniera/Fattoria
-> Ricerca: puoi spendere punti Ricerca
-> Espansione: Puoi espandere fino ad un tuo Centro
-> Militare: puoi creare un unità di qualunque tipo in una cella libera in una tessera che controlli (cella libera = in cui non sono presenti unità amiche o nemiche)
-> \[RELIGIONE?\]
-> Movimento: puoi far muovere un qualunque numero di Unità
-> Combattimento: se terminata la fase di movimento una o più delle tue unità si trova in una cella adiacente ad un'altra unità nemica, un suo Centro o una sua struttura, puoi Combattere.
+1. Riscossione ![risorsa](imgs/risorsa.png): +1 Risorsa per ogni livello della capitale. +1 Risorsa per ogni Centro (+2 se sono Città). +1 Risorsa per ogni Fattoria/Miniera
+2. Investimento/Scoperta
+3. Espansione: Puoi espandere fino ad un tuo Centro pagando il costo d'espansione
+4. Militare: puoi creare un unità di qualunque tipo in una cella libera in una tessera che controlli (cella libera => in cui non sono presenti unità amiche o nemiche)
+5. Movimento: puoi far muovere un qualunque numero di Unità fino al loro massimo movimento
+6. Combattimento: se terminata la fase di movimento una o più delle tue unità si trova in una cella adiacente ad un'altra unità nemica, un suo Centro o una sua struttura, puoi Combattere.
 
-## Combattimento
-Durante il combattimento ci saranno degli Attaccanti (le unità del giocatore di turno) e dei difensori (quelli di proprietà degli altri giocatori
-> Ogni unità attaccante ha un Valore di Combattimento (VC) che è pari al suo livello + bonus Ricerca Militare. Il VC del difensore invece è:
-	- Per le Strutture è pari al Bonus Difesa del Centro a cui sono collegate.
-	- Per le Città è pari al loro Bonus
+## Combattimento [WIP]
+>Durante il combattimento ci saranno degli Attaccanti (le unità del giocatore di turno) e dei difensori (quelli di proprietà degli altri giocatori
+>Ogni unità attaccante ha un Valore di Combattimento (VC) che è pari al suo livello + bonus Ricerca Militare. Il VC del difensore invece è:
+>	- Per le Strutture è pari al Bonus Difesa del Centro a cui sono collegate.
+>	- Per le Città è pari al loro Bonus
