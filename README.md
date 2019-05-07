@@ -76,6 +76,7 @@ Le unità hanno diverse caratteristiche:
 
 ## Ricerca:
 La ricerca permette di migliorare le proprie conoscenze e tecnologie. Ogni ricerca presenta 4 livelli e partono tutte a 0. Il costo per ogni livello è:
+
 | LV | Pt. Ricerca |
 | :--: | :--: |
 | 1  | 1 |
