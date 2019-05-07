@@ -73,12 +73,12 @@ Le Strutture disponibili sono:
 
 ### Unità:
 
-| Unità        | Livello           | Costo  |
-| ------------- |:-------------:| :-----:|
-| Esploratori      | 1 | 2 ![risorsa](imgs/risorsa.png) | 
-| Guerrieri      | 2 |   4 ![risorsa](imgs/risorsa.png) |
-| Cavalleria | 3 |    8 ![risorsa](imgs/risorsa.png) |
-| Generale | 4 |    12 ![risorsa](imgs/risorsa.png) |
+| Unità        | Livello           | Costo  | Immagine |
+| ------------- |:-------------:| :-----:| :-------: |
+| Esploratori      | 1 | 2 ![risorsa](imgs/risorsa.png) | ![militare](imgs/militare_1.png) |
+| Guerrieri      | 2 |   4 ![risorsa](imgs/risorsa.png) | ![militare](imgs/militare_2.png) |
+| Cavalleria | 3 |    8 ![risorsa](imgs/risorsa.png) | ![militare](imgs/militare_3.png) |
+| Generale | 4 |    12 ![risorsa](imgs/risorsa.png) | ![militare](imgs/militare_4.png) |
 
 Le unità hanno diverse caratteristiche:
 - **Movimento** (M): ogni unità può muoversi di un numero di celle pari al suo livello ogni turno. (NB. i movimenti sulle montagne valgono il doppio, impedendo alla Esploratori di attraversarle.)
