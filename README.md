@@ -17,7 +17,7 @@ La mappa del territorio è composta da **Tessere quadrate** ognuno suddivisa in 
 Per esempio questa è una **Tessera** composta da 4 celle (rispettivamente in senso orario da in alto a sx: pianura, acqua, pianura, montagna)  
 ![tile](imgs/tile1.png)
 
-Un'altro esempio di Tessera:  
+Un altro esempio di Tessera:  
 
 ![tile](imgs/tile2.png)
 
@@ -76,9 +76,9 @@ Le Strutture disponibili sono:
 | Unità        | Livello           | Costo  |
 | ------------- |:-------------:| :-----:|
 | Esploratori      | 1 | 2 ![risorsa](imgs/risorsa.png) | 
-| Guerrieri      | 2 |   5 ![risorsa](imgs/risorsa.png) |
+| Guerrieri      | 2 |   4 ![risorsa](imgs/risorsa.png) |
 | Cavalleria | 3 |    8 ![risorsa](imgs/risorsa.png) |
-| Generale | 4 |    11 ![risorsa](imgs/risorsa.png) |
+| Generale | 4 |    12 ![risorsa](imgs/risorsa.png) |
 
 Le unità hanno diverse caratteristiche:
 - **Movimento** (M): ogni unità può muoversi di un numero di celle pari al suo livello ogni turno. (NB. i movimenti sulle montagne valgono il doppio, impedendo alla Esploratori di attraversarle.)
